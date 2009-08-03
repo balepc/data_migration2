@@ -1,0 +1,10 @@
+Usage
+====
+
+$ script/plugin generate data_migration CreateInitialUsers
+
+$ rake db:migrate:data
+
+$ rake db:migrate:data:back
+
+
